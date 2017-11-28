@@ -1,0 +1,56 @@
+.root{
+    -fx-background-color: #383838;
+    -fx-font-size: 10pt;
+    -fx-font-style: normal;
+    -fx-padding: 10%;
+}
+
+.button{
+    -fx-font-family: normal;
+    -fx-font-size: 9px;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#9EA7E5, #61A2B1);
+    -fx-text-fill: #383640;
+    /*    -fx-border-color: #050f37; */
+    -fx-border-radius: 5px;
+    -fx-background-radius: 6;
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#2a5058, #61A2B1);
+    -fx-text-fill: #ffffff;
+}
+.label{
+    -fx-text-fill: #FFFFFF;
+}
+.menu-bar{
+    -fx-background-color: #3e3e3e;
+}
+#menu{
+    -fx-background-color: #3e3e3e;
+}
+#settings{
+    -fx-selection-bar: #383838;
+}
+#settings:hover{
+    -fx-background-color: #383838;
+}
+#help{
+    -fx-selection-bar: #383838;
+}
+#settings:armed{
+    -fx-background-color: #383838;
+}
+#help:hover{
+    -fx-background-color: #383838;
+}
+.menu-item:focused {
+    -fx-background-color: #3e3e3e;
+}
+.context-menu {
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: #383838;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+    /*    -fx-padding: 0.666667em 0.083333em 0.666667em 0.083333em;  8 1 8 1 */
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em; /* 4 1 8 1 */
+}
